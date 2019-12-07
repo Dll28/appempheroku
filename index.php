@@ -3,6 +3,8 @@
   <title>Prueba de PHP Heroku</title>
  </head>
  <body>
- <p>Hola David</p>
+<?php
+echo '¡Hola ' . htmlspecialchars($_GET["nombre"]) . '!';
+?>
  </body>
 </html>
